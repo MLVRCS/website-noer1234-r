@@ -62,6 +62,81 @@ section::after {
 
 /* Style the footer */
 footer {
+  background-image: url
+  padding: 10px;
+  text-align: center;
+  color: darkred;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>All about anime</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#b6d7a8"> naruto </a></li><p style=
+      <li><a href="#b6d7a8">my hero academia</a></li>
+      <li><a href="##b6d7a8">one peice</a></li>
+   <p style="background-color:Tomato;">Noe's best anime Opinions^^^</p>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>important fact about anime</h1>
+    <p>Anime is known for its distinct style, which is characterized by colorful, detailed animation and unique character designs.</p>
+    <p>The thing I like about anime is the fights because they get it detailed and they make it creative and fun to watch. I think others should get into anime because its a spectacular thing to watch and entertain people of all ages. </p>
+  </article>
+</section>
+
+<footer>
+  <p>Noe Rivas/Nrivera@gmail.com</p>
+</footer>
+
+</body>
+</html>
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f51e05;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
   background-image: url('')
   padding: 10px;
   text-align: center;
